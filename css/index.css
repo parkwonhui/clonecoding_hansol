@@ -22,7 +22,7 @@ header .spot li:first-child:after {display:none;}
 /*visual*/
 .visual {position:relative; padding: 0 50px;}
 .visual .prev,
-.visual .next { display: block; position: absolute; top:50%; width:25px; height:47px; 
+.visual .next { display: block; position: absolute; top:50%; width:25px; height:47px;
 transform: translateY(-50%); background:url(../images/sp_com.png) no-repeat;color:transparent;}
 .visual .prev {left:82px; background-position: -128px -60px;}
 .visual .next {right:82px; background-position: -158px -60px;}
@@ -39,8 +39,8 @@ background:url(../images/sp_com.png) no-repeat; opacity:0.5;}
 .visual .control li.on a {background:#fff}
 .visual .control li a {display:block; width: 50px; height:3px;
 background:rgba(255,255,255,0.5); border:none;}
-.visual .control a {color:transparent;} 
-.visual .con > div {height: 640px;} 
+.visual .control a {color:transparent;}
+.visual .con > div {height: 640px;}
 .visual .con .slide {background:url(../images/bg_main02.jpg) no-repeat center; color:#fff;
 font-size:32px; }
 .visual .con .slide p {font-size:20px; }
@@ -65,3 +65,9 @@ background:url(../images/sp_com.png) no-repeat; margin: 0 0 26px 0;}
 .product li:nth-child(4) a:hover:before { background-position:-219px -184px;}
 .product li:nth-child(5) a:hover:before { background-position:-292px -184px;}
 .product li:nth-child(6) a:hover:before { background-position:-364px -184px;}
+
+.blog {background-color: #f0eeeb;}
+.blog div {width:100%; text-align:center;}
+.blog ul {text-align: center;}
+.blog ul > li {display: inline-block; padding: 0 9px;}
+.blog img {width:282px; height:282px;}
